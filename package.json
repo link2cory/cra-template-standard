@@ -1,0 +1,25 @@
+{
+  "name": "cra-template-boilerplate",
+  "version": "0.0.1",
+  "main": "template.json",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript"
+  ],
+  "description": "Create React Template with my custom boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/link2cory/cra-template-boilerplate.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.10"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
+
