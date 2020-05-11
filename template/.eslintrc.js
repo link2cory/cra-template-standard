@@ -11,7 +11,9 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:jest/recommended",
     "plugin:jest/style",
+    "prettier/@typescript-eslint",
     "plugin:prettier/recommended",
+    "prettier/react",
   ],
   plugins: [
     "react",
@@ -51,23 +53,6 @@ module.exports = {
         optionalDependencies: false,
         peerDependencies: false,
         bundledDependencies: false,
-      },
-    ],
-    "semi": ["error", "always", { omitLastInOneLineBlock: true }],
-    "@typescript-eslint/semi": ["error", "always"],
-    "@typescript-eslint/quote": ["error", "double", {"avoidEscape": true, "allowTemplateLiterals": true }]
-    // there is no need for prop types, we are using typescript!
-    "@typescript-eslint/member-delimiter-style": [
-      1,
-      {
-        multiline: {
-          delimiter: "comma",
-          requireLast: true,
-        },
-        singleline: {
-          delimiter: "comma",
-          requireLast: true,
-        },
       },
     ],
   },
