@@ -31,7 +31,7 @@
   "scripts": {
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
-    "lint": "eslint --ext js,jsx,ts,tsx src",
-    "format": "prettier --write"
+    "lint": "eslint src --ext js,jsx,ts,tsx",
+    "format": "prettier src --write"
   }
 }
